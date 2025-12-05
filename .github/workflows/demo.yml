@@ -23,12 +23,12 @@ jobs:
       # Build image
       - name: Build Docker image
         run: |
-          docker build -t krishna2301/cicd-demo:latest .
+          docker build -t mirfan08/cicd-demo:latest .
 
       # Push image
       - name: Push Docker image
         run: |
-          docker push krishna2301/cicd-demo:latest
+          docker push mirfan08/cicd-demo:latest
 
       # Echo deployment instructions
       - name: Deployment notes
